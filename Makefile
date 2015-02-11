@@ -12,6 +12,9 @@ test:
 average_map: bin/average_map
 .PHONY: average_map
 
+growth: bin/growth
+.PHONY: growth
+
 bin/%: %.cc
 	mkdir -p bin
 	c++ -std=c++0x -O2 -o bin/$* $*.cc
