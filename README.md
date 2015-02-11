@@ -1,2 +1,2 @@
-# topix
-[Private use] Fetch TOPIX prices.
+# Nikkei
+[Private use] Fetch Nikkei prices.
